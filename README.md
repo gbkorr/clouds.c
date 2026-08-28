@@ -1,8 +1,9 @@
 # clouds.c
 A somewhat feature-rich volumetric cloud renderer for the terminal, intended as a fancy alternative to cbonsai/cmatrix. Code by Claude Fable; aesthetic and UX decisions by me. I know what the code does, but I'm not good at writing C :P
 
-handwritten [writeup](https://gbkorr.github.io/r-bites/clouds/clouds.html)
+see handwritten [writeup](https://gbkorr.github.io/r-bites/clouds/clouds.html) for more photos and comments.
 
+![](splash.png)
 
 ## Installation
 ```
