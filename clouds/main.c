@@ -188,7 +188,7 @@ int main(int argc, char **argv)
     if (xargc < 0) return 1;
 
     int opt;
-    while ((opt = getopt_long(xargc, xargv, "iL:as:c:w:e:H:y:p:t:z:C:r:q:Oo:f:hv",
+    while ((opt = getopt_long(xargc, xargv, "iL:as:c:w:e:H:y:p:t:z:C:r:q:Oo:f:F:hv",
                               longopts, NULL)) != -1) {
         switch (opt) {
         case 'i': sc.flight = 1; break;
@@ -222,7 +222,7 @@ int main(int argc, char **argv)
             else if (!strcmp(optarg, "storm")) sc.storm = 1.f;
             else { fprintf(stderr, "clouds: bad time '%s'\n", optarg); usage(stderr); return 1; }
             break;
-        case 1001: fps = atoi(optarg);
+        case 'F': fps = atoi(optarg);
                   if (fps < 1) fps = 1;
                   if (fps > 60) fps = 60;
                   fps_set = 1;
