@@ -7,7 +7,7 @@ see handwritten [writeup](https://gbkorr.github.io/r-bites/clouds/clouds.html) f
 
 ## Installation
 ```
-git clone https://github.com/gbkorr/clouds.git
+git clone https://github.com/gbkorr/clouds.c.git
 cd clouds.c/clouds/
 make
 ```
