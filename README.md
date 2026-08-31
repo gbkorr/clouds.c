@@ -8,7 +8,7 @@ see handwritten [writeup](https://gbkorr.github.io/r-bites/clouds/clouds.html) f
 ## Installation
 ```
 git clone https://github.com/gbkorr/clouds.git
-cd clouds/clouds/
+cd clouds.c/clouds/
 make
 ```
 (Optional: add to PATH, e.g. `sudo mv clouds /usr/bin/`, will be callable anywhere once terminal is reopened)
