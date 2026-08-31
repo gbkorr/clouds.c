@@ -15,7 +15,7 @@ make
 
 ## Usage
 ```
-Usage: clouds [OPTIONS]
+Usage: ./clouds [OPTIONS]
 Use the arrow keys to look around.
 
 volumetric clouds~
